@@ -1,20 +1,33 @@
 {
   "name": "chai-with-backend",
   "version": "1.0.0",
-  "description": "a backend at chai our code ",
+  "description": "A backend project built while learning backend development",
   "keywords": [
     "javascript",
-    "backend"
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
   ],
   "license": "ISC",
   "author": "Abhay",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.10.1"
+  },
+  "dependencies": {
+    "cloudinary": "^2.11.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1",
+    "multer": "^2.5.0"
   }
 }
